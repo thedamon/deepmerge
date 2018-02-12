@@ -77,7 +77,7 @@ Merging creates a new object, so that neither `x` or `y` are be modified.
 merge.all(arrayOfObjects, [options])
 -----------
 
-Merges any number of objects into a single result object.
+Merges any number of objects into a single result object. As in `merge()` above, if an element at the same key is present, the value from the object higher in the array will be used.
 
 ```js
 var x = { foo: { bar: 3 } }
